@@ -1,0 +1,324 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #515151;
+	background-image: linear-gradient(#929292 0%, #515151 90%);
+	background-repeat: no-repeat;
+	font: 14px Trebuchet MS;	
+}
+
+	.wrapper {
+		width: 1000px;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+		.logo {
+			width: 600px;
+			height: 100px;
+			background-image: url("/img/logo.png");
+			background-repeat: no-repeat;
+			display: block;
+		}
+
+	.top_menu {
+		width: 1000px;
+		height: 45px;
+		background-color: rgba(71, 151, 255, 0.74);
+		margin-bottom: 5px;
+		border-radius: 10px 10px 0px 0px ;
+		background-image: -webkit-linear-gradient(rgba(255,255,255,0.21) 0%, rgba(0,0,0,0.34) 100%);
+	}
+
+		.top_menu_left {
+			position: relative;
+			padding-left: 10px;
+			width: 500px;
+			float: left;
+		}
+		
+		.top_menu_right {
+			float: right;
+			color: rgba(0, 46, 111, 1);
+			margin-right: 10px;
+		}
+
+			.button {
+			    height: 35px;
+			    width: auto;
+			    padding-top: 10px;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			    //padding: 10px;
+			    text-decoration: none;
+			    font: 18px Trebuchet MS;
+			    display: inline-block;
+			    text-align: center;
+			    color: rgba(255, 255, 255, 0.87);    
+			    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+			}
+			
+			.button:hover {
+			    background-color: rgba(0, 0, 0, 0.1);
+			}  
+			
+			.button_exit {
+				height: 35px;
+			    width: auto;
+			    padding-top: 10px;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			    //padding: 10px;
+			    text-decoration: none;
+			    font: 18px Trebuchet MS;
+			    display: inline-block;
+			    text-align: center;
+			    color: rgba(255, 255, 255, 0.87);    
+			    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+			}
+			
+			.input_form {
+				width: 200px;
+				height: 25px;
+				margin-top: 5px;
+				border: 1px solid rgba(0, 0, 0, 0.5);
+				border-radius: 1px;
+				box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.2);
+				display: block;
+				padding-left: 3px;
+				font: 14px Trebuchet MS;
+			}
+			
+			.button_form {
+			    height: 30px;
+			    width: 203px;
+			    margin-top: 20px;
+			    font: 14px Trebuchet MS;
+			    border-radius: 5px;
+			    text-align: center;
+			    color: rgba(255, 255, 255, 0.87);    
+			    background-image: -webkit-linear-gradient(rgba(92,168,255,0.69) 0%, rgba(0,43,124,0.6) 100%);
+			    text-shadow: 0 1px 0 rgba(0,0,0,0.4);	
+			}
+			
+			.button_form:hover {
+				background-color: rgba(0, 0, 0, 0.26);
+			}
+			
+			.button_post {
+				height: 30px;
+			    width: 150px;
+			    margin-top: 10px;
+			    font: 14px Trebuchet MS;
+			    border-radius: 5px;
+			    text-align: center;
+			    color: rgba(255, 255, 255, 0.87);    
+			    background-image: -webkit-linear-gradient(rgba(92,168,255,0.69) 0%, rgba(0,43,124,0.6) 100%);
+			    text-shadow: 0 1px 0 rgba(0,0,0,0.4);	
+			}
+			
+			.button_post:hover {
+				background-color: rgba(0, 0, 0, 0.26);
+			}
+
+	.content {
+		width: 100%;	
+	}
+
+		.blog {
+			width: 780px;
+			height: 100%;
+			padding: 10px;
+			background-color: #cccccc;
+			float: left;
+		}
+
+			.new_post {
+				padding-left: 10px;
+				font: 18px Trebuchet MS;
+				text-decoration: none;	
+				color: #3f3f3f;		
+			}
+			
+			.new_post:hover {
+				color: rgba(57, 143, 255, 1);			
+			}
+			
+			.nicedit {
+				border: 1px solid rgba(0, 0, 0, 0.5);
+				padding-right: 2px;
+				background-color: #ffffff;
+			}
+			
+			.article {
+				width: 760px;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+			.article:hover {
+				background-color: rgba(0, 0, 0, 0.1);
+			}
+
+			.article-in {
+				width: 760px;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+			.title {
+				text-decoration: none;
+				font: 28px Trebuchet MS;
+				color: #2f2f2f;
+			}
+			
+			.title:hover {
+				color: rgba(36, 96, 176, 0.87);
+			}
+
+			.image {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+	.right {
+		width: 175px;
+		height: 100%;
+		padding: 10px;
+		margin-left: 5px;
+		background-color: rgba(0, 0, 0, 0.5);
+		float: right;
+		border-radius: 0px 0px 10px 0px;
+	}
+
+		.right_menu {
+			width: 155px;
+			height: 100%;
+			padding: 10px;
+			background-color: rgba(255, 255, 255, 0.83);
+			border-radius: 5px;
+		}
+
+		.right_menu a {
+			display: block;
+			color: #3f3f3f;
+			text-decoration: none;
+		}
+		
+		.right_menu a:hover {
+			color: rgba(57, 143, 255, 1);
+			text-decoration: underline;
+		
+		}
+
+	.footer {
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		background-color: rgba(255, 255, 255, 0);
+		color: #d6d6d6;
+		font: 10px Trebuchet MS;
+	}
+
+	.footer:hover {
+		color: rgba(71, 151, 255, 0.86);
+	}
+
+
+
+/* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+visibility: hidden;
+/* фон затемнения */
+background-color: rgba(0, 0, 0, 0.7);
+opacity: 0;
+position: fixed; /* фиксированное поцизионирование */
+cursor: default; /* тип курсара */
+-webkit-transition: opacity .2s;
+-moz-transition: opacity .2s;
+-ms-transition: opacity .2s;
+-o-transition: opacity .2s;
+transition: opacity .2s;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+/*** Формируем стили модального окна ***/
+.popup {
+font-size: 14px;
+z-index: 10;
+display: none;
+visibility: hidden;
+margin: 0 auto;
+width: 205px;
+min-width: 200px;
+max-width: 600px;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+position: absolute;
+padding: 15px;
+border: 1px solid #383838;
+/* скругление углов */
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+background-color: #FFFFFF;
+/* внешняя тень блока */
+-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+/* полная прозрачность окна, появление при клике */
+opacity: 0;
+}
+/* активируем появление окна и затемнение фона */
+.overlay:target+.popup {
+top: 25%; /* положение окна от верха страницы при появлении */
+left: 40%;
+display: block;
+visibility: visible;
+opacity: 1; /* убираем прозрачность */
+}
+/* формируем кнопку закрытия */
+.close {
+position: absolute;
+top: -10px;
+right: -10px;padding: 0;
+width: 20px;
+height: 20px;
+border: 2px solid #ccc;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+-ms-border-radius: 15px;
+-o-border-radius: 15px;
+border-radius: 15px;
+background-color: rgba(61, 61, 61, 0.8);
+-webkit-box-shadow: 0px 0px 10px #000;
+-moz-box-shadow: 0px 0px 10px #000;
+box-shadow: 0px 0px 10px #000;
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+line-height: 20px;
+}
+.close:before {
+color: rgba(255, 255, 255, 0.9);
+content: "X";
+text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+font-size: 12px;
+}
+.close:hover {
+background-color: rgba(253, 22, 0, 0.8);   
+}
+
+
